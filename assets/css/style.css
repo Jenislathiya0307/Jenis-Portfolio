@@ -30015,38 +30015,7 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
 /* Project Links Start */
 
 .project-links li a {
-  border-radius: 20px;
-  background: var(--color-gray-2);
-  padding: 20px;
-  border: 2px solid var(--color-border);
-  transition: var(--transition);
-}
-.project-links li a::before {
-    content: "";
-    position: absolute;
-    inset: 0px;
-    border-radius: inherit;
-    border: 1px solid transparent;
-    background-clip: border-box;
-    -webkit-mask: var(--full) padding-box, var(--full);
-    -webkit-mask-composite: xor;
-    mask: var(--full) padding-box exclude, var(--full);
-    pointer-events: none;
-    background: var(--stroke-gr) border-box;
-    z-index: 1;
-    transition: 0.5s;
-    transition: border-color 0.5s;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-    will-change: opacity;
-}
-
-.project-links li a::after {
-    content: "";
-    position: absolute;
-    inset: 2px;
-    background: var(--color-gray-2);
-    border-radius: 20px;
+  background-color: #000;
 }
 
 /* Project Links End */
